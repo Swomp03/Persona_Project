@@ -14,7 +14,7 @@ h1{
     background-color: aquamarine;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    margin: 0 3% 4%;
+    margin: 0 3% 2%;
     padding: 1% 0;
 }
 
@@ -78,7 +78,7 @@ h1{
 
 @media only screen and (max-width: 600px){
     .p4_social_link_body{
-        margin: 0 5% 5%;
+        margin: 3% 5% 5%;
     }
     .social_link_pictures{
         grid-template-columns: 125px 125px 125px 125px;
