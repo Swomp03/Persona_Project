@@ -64,7 +64,7 @@ h1{
 }
 
 @media only screen and (max-width: 768px){
-    .social_link_body{
+    .p4_social_link_body{
         margin: 0 15% 5%;
     }
     .social_link_pictures{
@@ -77,7 +77,7 @@ h1{
 }
 
 @media only screen and (max-width: 600px){
-    .social_link_body{
+    .p4_social_link_body{
         margin: 0 10% 5%;
     }
     .social_link_pictures{
