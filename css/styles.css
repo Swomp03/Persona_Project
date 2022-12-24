@@ -10,6 +10,14 @@ h1{
     font-family: "Lobster";
 }
 
+.p3_title_box{
+    background-color: #3F61A6;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    margin: 0 3% 2%;
+    padding: 1% 0;
+}
+
 .p4_title_box{
     background-color: aquamarine;
     border-radius: 25px;
@@ -22,14 +30,32 @@ h1{
     background-image: url("../images/P4MinimalistBackground.jpg");
 }
 
+.p3_main{
+    background-image: url("../images/DancingInMoonlightBackground.webp");
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .game_covers{
     display: grid;
     grid-template-columns: 450px 450px 450px;
     justify-content: center;
 }
 
+.p3_social_link_body{
+    background: rgb(0,3,165);
+    background: linear-gradient(90deg, rgba(0,138,255,1) 0%, rgba(255,154,38,1) 0%, rgba(255,72,114,1) 100%);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    padding-top: 30px;
+    margin: 0 10% 5%;
+}
+
 .p4_social_link_body{
-    /*background-color: linear-gradient(to bottom right, #DE6262, #FFB88C);*/
     background: rgb(0,138,255);
     background: linear-gradient(90deg, rgba(0,138,255,1) 0%, rgba(74,230,255,1) 0%, rgba(255,184,140,1) 100%);
     border-radius: 25px;
@@ -53,6 +79,14 @@ h1{
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     margin: 0 20px 0;
+}
+
+.p3_social_link_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Patua One", cursive;
+    color: #D5E7F2;
+    text-shadow: 2px 2px 2px black;
 }
 
 .p4_social_link_title{
@@ -116,6 +150,11 @@ h1{
     margin-right: auto;
     display: block;
     width: 40%;
+}
+
+#p3_title{
+    color: #F2E5BD;
+    text-shadow: 2px 2px #ff5500;
 }
 
 #p4_title{
