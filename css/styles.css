@@ -68,54 +68,32 @@ h1{
 
 @media only screen and (max-width: 992px) {
     .p4_social_link_body{
-        background-color: aliceblue;
-        border-radius: 25px;
         padding-top: 30px;
         margin: 0 10% 0;
     }
 
     .social_link_pictures{
-        display: grid;
         grid-template-columns: 175px 175px 175px 175px;
-        row-gap: 20px;
-        justify-content: center;
-        align-content: center;
-        display: flex;
-        flex-wrap: wrap;
     }
     
     .social_link_singular{
-        width: 150px;
-        border-radius: 25px;
-        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+        width: 225px;
         margin: 0 20px 0;
-        padding: 0;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .p4_social_link_body{
-        background-color: aliceblue;
-        border-radius: 25px;
         padding-top: 30px;
         margin: 0 5% 0;
     }
 
     .social_link_pictures{
-        display: grid;
         grid-template-columns: 150px 150px 150px 150px;
-        row-gap: 20px;
-        justify-content: center;
-        align-content: center;
-        display: flex;
-        flex-wrap: wrap;
     }
     
     .social_link_singular{
-        width: 125px;
-        border-radius: 25px;
-        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-        margin: 0 20px 0;
+        width: 250px;
     }
 }
 
