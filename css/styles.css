@@ -1,0 +1,153 @@
+/*Responsive Stuff Here*/
+
+body{
+    background-color: sandybrown;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Lobster";
+}
+
+.p4_title_box{
+    background-color: aquamarine;
+    border-radius: 25px;
+    margin: 0 3% 2%;
+    padding: 1% 0;
+}
+
+.p4_main{
+    background-image: url("../images/P4MinimalistBackground.jpg");
+}
+
+.p4_social_link_body{
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding-top: 30px;
+    margin: 0 35% 0;
+}
+
+.game_covers{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    justify-content: center;
+}
+
+.social_link_pictures{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    row-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social_link_singular{
+    width: 225px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    margin: 0 20px 0;
+}
+
+.social_link_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Patua One", cursive;
+}
+
+@media only screen and (max-width: 1280px) {
+    .p4_social_link_body{
+        background-color: aliceblue;
+        border-radius: 25px;
+        padding-top: 30px;
+        margin: 0 20% 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .p4_social_link_body{
+        background-color: aliceblue;
+        border-radius: 25px;
+        padding-top: 30px;
+        margin: 0 10% 0;
+    }
+
+    .social_link_pictures{
+        display: grid;
+        grid-template-columns: 175px 175px 175px 175px;
+        row-gap: 20px;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .social_link_singular{
+        width: 150px;
+        border-radius: 25px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+        margin: 0 20px 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .p4_social_link_body{
+        background-color: aliceblue;
+        border-radius: 25px;
+        padding-top: 30px;
+        margin: 0 5% 0;
+    }
+
+    .social_link_pictures{
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        row-gap: 20px;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .social_link_singular{
+        width: 125px;
+        border-radius: 25px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+        margin: 0 20px 0;
+    }
+}
+
+.cover_art{
+    margin-top: 10%;
+    padding-left: 12%;
+    
+    justify-content: center;
+}
+
+#p3_cover{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 500px;
+}
+
+#p4_cover{
+    width: 350px;
+}
+
+#p5_cover{
+    width: 350px;
+}
+
+#persona_protagonists{
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+}
+
+#p4_title{
+    color: #ffae00;
+}
