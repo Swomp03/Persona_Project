@@ -28,8 +28,10 @@ h1{
     justify-content: center;
 }
 
-.social_link_body{
-    background-color: aliceblue;
+.p4_social_link_body{
+    /*background-color: linear-gradient(to bottom right, #DE6262, #FFB88C);*/
+    background: rgb(0,138,255);
+    background: linear-gradient(90deg, rgba(0,138,255,1) 0%, rgba(74,230,255,1) 0%, rgba(255,184,140,1) 100%);
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     padding-top: 30px;
@@ -53,12 +55,12 @@ h1{
     margin: 0 20px 0;
 }
 
-.social_link_title{
+.p4_social_link_title{
     text-align: center;
     font-size: 30px;
     font-family: "Patua One", cursive;
     color: gold;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 @media only screen and (max-width: 768px){
