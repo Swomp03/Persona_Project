@@ -13,6 +13,7 @@ h1{
 .p4_title_box{
     background-color: aquamarine;
     border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     margin: 0 3% 2%;
     padding: 1% 0;
 }
@@ -21,17 +22,18 @@ h1{
     background-image: url("../images/P4MinimalistBackground.jpg");
 }
 
-.p4_social_link_body{
-    background-color: aliceblue;
-    border-radius: 25px;
-    padding-top: 30px;
-    margin: 0 35% 0;
-}
-
 .game_covers{
     display: grid;
     grid-template-columns: 450px 450px 450px;
     justify-content: center;
+}
+
+.social_link_body{
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    padding-top: 30px;
+    margin: 0 10% 5%;
 }
 
 .social_link_pictures{
@@ -55,45 +57,33 @@ h1{
     text-align: center;
     font-size: 30px;
     font-family: "Patua One", cursive;
+    color: gold;
+    text-shadow: 2px 2px black;
 }
 
-@media only screen and (max-width: 1280px) {
-    .p4_social_link_body{
-        background-color: aliceblue;
-        border-radius: 25px;
-        padding-top: 30px;
-        margin: 0 20% 0;
+@media only screen and (max-width: 768px){
+    .social_link_body{
+        margin: 0 15% 5%;
     }
-}
-
-@media only screen and (max-width: 992px) {
-    .p4_social_link_body{
-        padding-top: 30px;
-        margin: 0 10% 0;
-    }
-
     .social_link_pictures{
         grid-template-columns: 175px 175px 175px 175px;
     }
-    
+
     .social_link_singular{
-        width: 225px;
-        margin: 0 20px 0;
+        width: 200px;
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .p4_social_link_body{
-        padding-top: 30px;
-        margin: 0 5% 0;
+@media only screen and (max-width: 600px){
+    .social_link_body{
+        margin: 0 10% 5%;
+    }
+    .social_link_pictures{
+        grid-template-columns: 125px 125px 125px 125px;
     }
 
-    .social_link_pictures{
-        grid-template-columns: 150px 150px 150px 150px;
-    }
-    
     .social_link_singular{
-        width: 250px;
+        width: 175px;
     }
 }
 
@@ -128,4 +118,5 @@ h1{
 
 #p4_title{
     color: #ffae00;
+    text-shadow: 2px 2px #ff0000;
 }
