@@ -26,12 +26,30 @@ h1{
     padding: 1% 0;
 }
 
-.p4_main{
-    background-image: url("../images/P4MinimalistBackground.jpg");
+.p5_title_box{
+    background-color: #ff4a26;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    margin: 0 3% 2%;
+    padding: 1% 0;
 }
 
 .p3_main{
     background-image: url("../images/DancingInMoonlightBackground.webp");
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p4_main{
+    background-image: url("../images/P4MinimalistBackground.jpg");
+}
+
+.p5_main{
+    background-image: url("../images/Persona-5-Wallpapers-Pause.webp");
     height: 100%;
 
     background-attachment: fixed;
@@ -48,7 +66,7 @@ h1{
 
 .p3_social_link_body{
     background: rgb(0,3,165);
-    background: linear-gradient(90deg, rgba(0,138,255,1) 0%, rgba(255,154,38,1) 0%, rgba(255,72,114,1) 100%);
+    background: linear-gradient(90deg, rgba(255,154,38,1) 0%, rgba(255,72,114,1) 100%);
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     padding-top: 30px;
@@ -57,7 +75,16 @@ h1{
 
 .p4_social_link_body{
     background: rgb(0,138,255);
-    background: linear-gradient(90deg, rgba(0,138,255,1) 0%, rgba(74,230,255,1) 0%, rgba(255,184,140,1) 100%);
+    background: linear-gradient(90deg, rgba(74,230,255,1) 0%, rgba(255,184,140,1) 100%);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    padding-top: 30px;
+    margin: 0 10% 5%;
+}
+
+.p5_confidant_body{
+    background: rgb(0,138,255);
+    background: linear-gradient(90deg, rgba(255,72,114,1) 0%, rgba(38,46,255,1) 100%);
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     padding-top: 30px;
@@ -94,6 +121,14 @@ h1{
     font-size: 30px;
     font-family: "Patua One", cursive;
     color: gold;
+    text-shadow: 2px 2px 2px black;
+}
+
+.p5_confidant_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Patua One", cursive;
+    color: #03dffc;
     text-shadow: 2px 2px 2px black;
 }
 
