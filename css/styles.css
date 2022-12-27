@@ -159,24 +159,12 @@ h1{
 }
 
 .cover_art{
-    margin-top: 10%;
-    padding-left: 12%;
-    
+    grid-template-columns: 250px 250px 250px;
+    width: 400px;
     justify-content: center;
-}
-
-#p3_cover{
-    padding-bottom: 10%;
-    padding-top: 10%;
-    width: 500px;
-}
-
-#p4_cover{
-    width: 350px;
-}
-
-#p5_cover{
-    width: 350px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #persona_protagonists{
