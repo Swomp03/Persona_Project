@@ -35,7 +35,8 @@ h1{
 }
 
 .main_title_box{
-    background-color: #2704d4;
+    background: rgb(252,74,26);
+    background: linear-gradient(90deg, rgba(252,74,26,1) 0%, rgba(247,183,51,1) 100%);
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     margin: 0 3% 2%;
@@ -66,11 +67,22 @@ h1{
     background-size: cover;
 }
 
+.main_background{
+    background-image: url("../images/P25thBackgroundBlurred.png");
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .game_covers{
     grid-template-columns: 450px 450px 450px;
     row-gap: 20px;
+    column-gap: 100px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -109,6 +121,15 @@ h1{
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     padding-top: 30px;
     margin: 0 10% 5%;
+}
+
+.main_body{
+    background: rgb(0,242,96);
+    background: linear-gradient(90deg, rgba(0,242,96,1) 0%, rgba(5,117,230,1) 100%);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    padding-top: 30px;
+    margin: 2% 10% 0%;
 }
 
 .social_link_singular{
@@ -184,11 +205,12 @@ h1{
 }
 
 #persona_protagonists{
-    margin-top: 7%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 40%;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.6));
 }
 
 #p3_title{
@@ -206,7 +228,19 @@ h1{
     text-shadow: 2px 2px #237BD9;
 }
 
+#p3_main_title{
+    margin-left: 7%;
+}
+
+#p4_main_title{
+    margin-left: 7%;
+}
+
+#p5_main_title{
+    margin-left: 11%;
+}
+
 #main_title{
-    color: cyan;
-    text-shadow: 2px 2px hotpink;
+    color: #DDF20C;
+    text-shadow: 2px 2px #bf0cf5;
 }
