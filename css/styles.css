@@ -34,6 +34,14 @@ h1{
     padding: 1% 0;
 }
 
+.main_title_box{
+    background-color: #2704d4;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    margin: 0 3% 2%;
+    padding: 1% 0;
+}
+
 .p3_main{
     background-image: url("../images/DancingInMoonlightBackground.webp");
     height: 100%;
@@ -49,7 +57,7 @@ h1{
 }
 
 .p5_main{
-    background-image: url("../images/Persona-5-Wallpapers-Pause.webp");
+    background-image: url("../images/P5City.jpg");
     height: 100%;
 
     background-attachment: fixed;
@@ -59,9 +67,21 @@ h1{
 }
 
 .game_covers{
-    display: grid;
     grid-template-columns: 450px 450px 450px;
+    row-gap: 20px;
     justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social_link_pictures{
+    grid-template-columns: 250px 250px 250px 250px;
+    row-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .p3_social_link_body{
@@ -91,20 +111,17 @@ h1{
     margin: 0 10% 5%;
 }
 
-.social_link_pictures{
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    row-gap: 20px;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .social_link_singular{
     width: 225px;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    margin: 0 20px 0;
+}
+
+.cover_art{
+    width: 225px;
+    border-radius: 25px;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.6));
     margin: 0 20px 0;
 }
 
@@ -128,7 +145,15 @@ h1{
     text-align: center;
     font-size: 30px;
     font-family: "Patua One", cursive;
-    color: #03dffc;
+    color: turquoise;
+    text-shadow: 2px 2px 2px black;
+}
+
+.main_logo_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Patua One", cursive;
+    color: #F2E5BD;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -158,15 +183,6 @@ h1{
     }
 }
 
-.cover_art{
-    grid-template-columns: 250px 250px 250px;
-    width: 400px;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #persona_protagonists{
     margin-top: 7%;
     margin-left: auto;
@@ -188,4 +204,9 @@ h1{
 #p5_title{
     color: #ade0ff;
     text-shadow: 2px 2px #237BD9;
+}
+
+#main_title{
+    color: cyan;
+    text-shadow: 2px 2px hotpink;
 }
