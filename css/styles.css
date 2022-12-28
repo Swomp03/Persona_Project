@@ -116,7 +116,7 @@ h1{
 
 .p5_confidant_body{
     background: rgb(0,138,255);
-    background: linear-gradient(90deg, rgba(255,72,114,1) 0%, rgba(38,46,255,1) 100%);
+    background: linear-gradient(90deg, #ea98da 0%, #5b6cf9 100%);
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     padding-top: 30px;
