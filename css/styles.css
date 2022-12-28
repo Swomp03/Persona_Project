@@ -179,9 +179,18 @@ h1{
 }
 
 @media only screen and (max-width: 768px){
+    .p3_social_link_body{
+        margin: 0 10% 5%;
+    }
+
     .p4_social_link_body{
         margin: 0 10% 5%;
     }
+
+    .p5_confidant_body{
+        margin: 0 10% 5%;
+    }
+
     .social_link_pictures{
         grid-template-columns: 175px 175px 175px 175px;
     }
@@ -192,9 +201,18 @@ h1{
 }
 
 @media only screen and (max-width: 600px){
+    .p3_social_link_body{
+        margin: 3% 5% 5%;
+    }
+    
     .p4_social_link_body{
         margin: 3% 5% 5%;
     }
+
+    .p5_confidant_body{
+        margin: 3% 5% 5%;
+    }
+
     .social_link_pictures{
         grid-template-columns: 125px 125px 125px 125px;
     }
