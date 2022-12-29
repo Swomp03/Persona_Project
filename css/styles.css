@@ -17,6 +17,13 @@ h2{
     text-shadow: 2px 2px 2px white;
 }
 
+h3{
+    margin-left: 25px;
+    font-size: 28px;
+    font-family: "Lobster";
+    text-shadow: 2px 2px 2px white;
+}
+
 table, th, td{
     border: 1px solid black;
 }
