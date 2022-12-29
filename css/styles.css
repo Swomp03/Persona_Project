@@ -14,10 +14,17 @@ h2{
     margin-left: 25px;
     font-size: 35px;
     font-family: "Lobster";
+    text-shadow: 2px 2px 2px white;
 }
 
 table, th, td{
     border: 1px solid black;
+}
+
+.social_link_profile{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 .availability_table{
