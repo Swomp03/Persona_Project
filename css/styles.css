@@ -322,6 +322,10 @@ table, th, td{
         font-size: 11px;
     }
 
+    .social_link_text{
+        font-size: 12px;
+    }
+
     .availability_table{
         margin-left: 6px;
         width: 30%;
