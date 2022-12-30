@@ -179,7 +179,7 @@ table, th, td{
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     padding-top: 2px;
     padding-bottom: 18px;
-    margin: 0 25% 5%;
+    margin: 0 25% 2%;
 }
 
 .main_body{
@@ -259,6 +259,10 @@ table, th, td{
         margin: 0 10% 5%;
     }
 
+    .singular_link_body{
+        margin: 0 10% 5%;
+    }
+
     .social_link_pictures{
         grid-template-columns: 175px 175px 175px 175px;
     }
@@ -282,6 +286,10 @@ table, th, td{
     }
 
     .p5_confidant_body{
+        margin: 3% 5% 5%;
+    }
+
+    .singular_link_body{
         margin: 3% 5% 5%;
     }
 
