@@ -323,7 +323,11 @@ table, th, td{
     }
 
     .social_link_text{
-        font-size: 4px;
+        font-size: 12px;
+    }
+
+    .outside_link{
+        font-size: 11px;
     }
 
     .availability_table{
