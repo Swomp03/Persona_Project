@@ -319,7 +319,7 @@ table, th, td{
     }
 
     th{
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .availability_table{
@@ -339,7 +339,7 @@ table, th, td{
     }
 
     .singular_link_body{
-        margin: 3% 7% 5%;
+        margin: 3% 3% 5%;
     }
 
     .social_link_pictures{
