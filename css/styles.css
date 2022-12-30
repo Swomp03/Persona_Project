@@ -249,14 +249,14 @@ table, th, td{
 @media only screen and (max-width: 768px){
     h2{
         margin-left: 25px;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
     }
 
     h3{
         margin-left: 25px;
-        font-size: 23px;
+        font-size: 16px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
     }
@@ -293,14 +293,14 @@ table, th, td{
 @media only screen and (max-width: 600px){
     h2{
         margin-left: 25px;
-        font-size: 25px;
+        font-size: 18px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
     }
-    
+
     h3{
         margin-left: 25px;
-        font-size: 20px;
+        font-size: 14px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
     }
