@@ -319,10 +319,11 @@ table, th, td{
     }
 
     th{
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .availability_table{
+        margin-left: 6px;
         width: 30%;
     }
 
