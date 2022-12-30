@@ -292,7 +292,7 @@ table, th, td{
 
 @media only screen and (max-width: 600px){
     h2{
-        margin-left: 25px;
+        margin-left: 5px;
         font-size: 18px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
