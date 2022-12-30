@@ -252,7 +252,7 @@ table, th, td{
 @media only screen and (max-width: 768px){
     h2{
         margin-left: 25px;
-        font-size: 20px;
+        font-size: 32px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
         margin-right: 25px;
@@ -260,9 +260,17 @@ table, th, td{
 
     h3{
         margin-left: 25px;
-        font-size: 16px;
+        font-size: 26px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
+    }
+
+    th{
+        font-size: 25px;
+    }
+
+    .availability_table{
+        width: 40%;
     }
 
     .p3_social_link_body{
@@ -297,7 +305,7 @@ table, th, td{
 @media only screen and (max-width: 600px){
     h2{
         margin-left: 25px;
-        font-size: 18px;
+        font-size: 30px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
         margin-right: 25px;
@@ -305,10 +313,19 @@ table, th, td{
 
     h3{
         margin-left: 25px;
-        font-size: 14px;
+        font-size: 24px;
         font-family: "Lobster";
         text-shadow: 2px 2px 2px white;
     }
+
+    th{
+        font-size: 20px;
+    }
+
+    .availability_table{
+        width: 30%;
+    }
+
     .p3_social_link_body{
         margin: 3% 5% 5%;
     }
