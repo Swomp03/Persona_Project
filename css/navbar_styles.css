@@ -7,6 +7,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+
+    z-index: 2;
 }
 
 .home_nav_title{
@@ -77,24 +79,36 @@
         color: white;
         background-color: #fd4161;
         border-radius: 25px;
+
+        transition: background-color .2s;
+        transition: color .1s;
     }
 
     .p3_nav:hover{
         color: white;
         background-color: #0031f7;
         border-radius: 25px;
+
+        transition: background-color .2s;
+        transition: color .1s;
     }
     
     .p4_nav:hover{
         color: white;
         background-color: #fcf003;
         border-radius: 25px;
+
+        transition: background-color .2s;
+        transition: color .1s;
     }
     
     .p5_nav:hover{
         color: white;
         background-color: #ff0000;
         border-radius: 25px;
+
+        transition: background-color .2s;
+        transition: color .1s;
     }   
 }
 

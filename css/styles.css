@@ -146,6 +146,11 @@ table, th, td{
     flex-wrap: wrap;
 }
 
+
+
+
+
+
 .social_link_pictures{
     grid-template-columns: 250px 250px 250px 250px;
     row-gap: 20px;
@@ -154,6 +159,12 @@ table, th, td{
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
+
+
 
 .p3_social_link_body{
     background: rgb(0,3,165);
@@ -200,12 +211,37 @@ table, th, td{
     margin: 2% 10% 0%;
 }
 
+
+
+
+
 .social_link_singular{
     width: 225px;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
     margin: 0 20px 0;
 }
+
+
+.image_shine{
+    
+    transition: all transform 0.2s ease-out;
+    
+}
+
+.image_shine img:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-out;
+    
+}
+
+.image_shine img:hover::after{
+}
+
+
+
+
+
 
 .cover_art{
     width: 225px;
