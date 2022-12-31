@@ -1,7 +1,13 @@
 /*Responsive Stuff Here*/
 
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: sandybrown;
+    margin: 0;
+    padding: 0%;
 }
 
 h1{
@@ -67,7 +73,7 @@ table, th, td{
     background-color: #3F61A6;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    margin: 0 3% 2%;
+    margin: 5% 3% 2%;
     padding: 1% 0;
 }
 
@@ -75,7 +81,7 @@ table, th, td{
     background-color: aquamarine;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    margin: 0 3% 2%;
+    margin: 5% 3% 2%;
     padding: 1% 0;
 }
 
@@ -83,7 +89,7 @@ table, th, td{
     background-color: #ff4a26;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    margin: 0 3% 2%;
+    margin: 5% 3% 2%;
     padding: 1% 0;
 }
 
