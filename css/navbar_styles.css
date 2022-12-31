@@ -12,14 +12,14 @@
 .home_nav_title{
     font-family: "Lobster";
     font-size: 2.5rem;
-    margin: 0.8rem 0.8rem 0.9rem 1rem;
+    margin: 0.8rem 0.8rem 0.9rem 1.3rem;
     text-decoration: none;
     text-shadow: 2px 2px #000000;
     color: white;
 }
 
 .navbar_links ul{
-    margin: 0;
+    margin: 0 0.8rem 0 0;
     padding: 0;
     display: flex;
 }
@@ -31,10 +31,9 @@
 .navbar_links li a{
     font-family: "Lobster";
     font-size: 2rem;
-    margin-right: 1rem;
+    margin-right: 0.2rem;
     text-decoration: none;
     text-shadow: 2px 2px #000000;
-    color: white;
     padding: 1rem;
     display: block;
 }
@@ -43,31 +42,60 @@
     display: block;
 }
 
-.mini_nav_title{
-    display: none;
-}
-
-
-
-@media (max-width: 768px){
-    
-}
 
 .nav_main ul{
     display: flex;
-}
-
-.nav_main li a{
-    display: block;
 }
 
 .nav_mini ul{
     display: none;
 }
 
-.nav_mini li a{
-    display: none;
+
+
+
+.home_nav{
+    color: #fa97a7;
 }
+
+.home_nav:hover{
+    color: white;
+    background-color: #fd4161;
+    border-radius: 25px;
+}
+
+.p3_nav{
+    color: #26b0ff;
+}
+
+.p3_nav:hover{
+    color: white;
+    background-color: #0031f7;
+    border-radius: 25px;
+}
+
+.p4_nav{
+    color: #faf257;
+}
+
+.p4_nav:hover{
+    color: white;
+    background-color: #fcf003;
+    border-radius: 25px;
+}
+
+.p5_nav{
+    color: #fa4343;
+}
+
+.p5_nav:hover{
+    color: white;
+    background-color: #ff0000;
+    border-radius: 25px;
+}
+
+
+
 
 @media (max-width: 768px){
 
@@ -85,13 +113,13 @@
 
 
 
-    .mini_nav_title{
-        display: block;
-        font-size: 2rem;
+    .navbar{
+        justify-content: space-evenly;
     }
     
     .nav_mini ul{
         display: flex;
+        margin-right: 1.5rem;
     }
     
     .nav_mini li a{
