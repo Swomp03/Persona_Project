@@ -98,7 +98,7 @@ table, th, td{
     background: linear-gradient(90deg, rgba(252,74,26,1) 0%, rgba(247,183,51,1) 100%);
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    margin: 0 3% 2%;
+    margin: 5% 3% 2%;
     padding: 1% 0;
 }
 
@@ -264,6 +264,26 @@ table, th, td{
     }
     .p5_title_box{
         margin-top: 7%;
+    }
+
+    .main_title_box{
+        margin-top: 7%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .p3_title_box{
+        margin-top: 14%;
+    }
+    .p4_title_box{
+        margin-top: 14%;
+    }
+    .p5_title_box{
+        margin-top: 14%;
+    }
+    
+    .main_title_box{
+        margin-top: 14%;
     }
 }
 
