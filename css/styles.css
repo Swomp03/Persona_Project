@@ -255,6 +255,18 @@ table, th, td{
     filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.6));
 }
 
+@media only screen and (max-width: 1600px){
+    .p3_title_box{
+        margin-top: 7%;
+    }
+    .p4_title_box{
+        margin-top: 7%;
+    }
+    .p5_title_box{
+        margin-top: 7%;
+    }
+}
+
 @media only screen and (max-width: 768px){
     h2{
         margin-left: 25px;
@@ -306,6 +318,18 @@ table, th, td{
     #persona_protagonists{
         width: 70%;
     }
+
+
+
+    .p3_title_box{
+        margin-top: 10%;
+    }
+    .p4_title_box{
+        margin-top: 10%;
+    }
+    .p5_title_box{
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -333,7 +357,7 @@ table, th, td{
     }
 
     .outside_link{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .availability_table{
@@ -367,6 +391,21 @@ table, th, td{
 
     #persona_protagonists{
         width: 70%;
+    }
+
+
+
+
+
+
+    .p3_title_box{
+        margin-top: 10%;
+    }
+    .p4_title_box{
+        margin-top: 20%;
+    }
+    .p5_title_box{
+        margin-top: 10%;
     }
 }
 

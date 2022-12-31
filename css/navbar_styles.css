@@ -58,40 +58,44 @@
     color: #fa97a7;
 }
 
-.home_nav:hover{
-    color: white;
-    background-color: #fd4161;
-    border-radius: 25px;
-}
-
 .p3_nav{
     color: #26b0ff;
-}
-
-.p3_nav:hover{
-    color: white;
-    background-color: #0031f7;
-    border-radius: 25px;
 }
 
 .p4_nav{
     color: #faf257;
 }
 
-.p4_nav:hover{
-    color: white;
-    background-color: #fcf003;
-    border-radius: 25px;
-}
-
 .p5_nav{
     color: #fa4343;
 }
 
-.p5_nav:hover{
-    color: white;
-    background-color: #ff0000;
-    border-radius: 25px;
+
+@media (min-width: 769px){
+    
+    .home_nav:hover{
+        color: white;
+        background-color: #fd4161;
+        border-radius: 25px;
+    }
+
+    .p3_nav:hover{
+        color: white;
+        background-color: #0031f7;
+        border-radius: 25px;
+    }
+    
+    .p4_nav:hover{
+        color: white;
+        background-color: #fcf003;
+        border-radius: 25px;
+    }
+    
+    .p5_nav:hover{
+        color: white;
+        background-color: #ff0000;
+        border-radius: 25px;
+    }   
 }
 
 
@@ -120,10 +124,12 @@
     .nav_mini ul{
         display: flex;
         margin-right: 1.5rem;
+        margin-left: 1.5rem;
     }
     
     .nav_mini li a{
         display: block;
         font-size: 1.5rem;
+        margin: 0 8px;
     }
 }
