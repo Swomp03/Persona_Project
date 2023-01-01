@@ -223,32 +223,13 @@ table, th, td{
 }
 
 
-.image_shine{
-    
-    transition: all transform 0.2s ease-out;
-    
-}
-
-.image_shine img:hover{
-    transform: scale(1.05);
-    transition: transform 0.2s ease-out;
-    
-}
-
-.image_shine img:hover::after{
-}
-
-
-
-
-
-
 .cover_art{
     width: 225px;
     border-radius: 25px;
     filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.6));
     margin: 0 20px 0;
 }
+
 
 .p3_social_link_title{
     text-align: center;
@@ -258,6 +239,7 @@ table, th, td{
     text-shadow: 2px 2px 2px black;
 }
 
+
 .p4_social_link_title{
     text-align: center;
     font-size: 30px;
@@ -266,6 +248,7 @@ table, th, td{
     text-shadow: 2px 2px 2px black;
 }
 
+
 .p5_confidant_title{
     text-align: center;
     font-size: 30px;
@@ -273,6 +256,45 @@ table, th, td{
     color: turquoise;
     text-shadow: 2px 2px 2px black;
 }
+
+
+
+@media (min-width: 769px){
+    .cover_art:hover{
+        transform: scale(1.05);
+        transition: transform 0.2s ease-out;
+    }
+
+    .main_logo_title:hover{
+        color: rgb(255, 75, 171);
+        transition: color 0.2s;
+    }
+
+    .social_link_singular:hover{
+        transform: scale(1.05);
+        transition: transform 0.2s ease-out;
+    }
+
+    .p3_social_link_title:hover{
+        color:#24d0ff;
+        transition: color 0.2s;
+    }
+
+    .p4_social_link_title:hover{
+        color: white;
+        transition: color 0.2s;
+    }
+
+    .p5_confidant_title:hover{
+        color: #F2E5BD;
+        transition: color 0.2s;
+    }
+}
+
+
+
+
+
 
 .main_logo_title{
     text-align: center;
