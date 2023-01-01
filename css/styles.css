@@ -62,7 +62,7 @@ table, th, td{
     text-align: center;
     display: grid;
     margin: 20px auto 25px;
-    width: 20%;
+    width: 50%;
     height: 20%;
     font-size: 40px;
     border-radius: 25px;
@@ -79,6 +79,9 @@ table, th, td{
     .back_button:hover{
         background-color: #fd3093;
         transition: background-color 0.2s;
+    }
+    .back_button{
+        width: 20%;
     }
 }
 
@@ -470,7 +473,7 @@ table, th, td{
     }
 
     .social_link_text{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .outside_link{
