@@ -202,6 +202,10 @@ table, th, td{
     margin: 0 25% 2%;
 }
 
+.main_page_credit{
+    margin-top: 5%;
+}
+
 .main_body{
     background: rgb(0,242,96);
     background: linear-gradient(90deg, rgba(0,242,96,1) 0%, rgba(5,117,230,1) 100%);
@@ -235,7 +239,7 @@ table, th, td{
     text-align: center;
     font-size: 30px;
     font-family: "Patua One", cursive;
-    color: #D5E7F2;
+    color: #2ffff8;
     text-shadow: 2px 2px 2px black;
 }
 
