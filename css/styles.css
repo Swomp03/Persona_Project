@@ -43,6 +43,8 @@ table, th, td{
     justify-content: center;
 }
 
+
+
 .availability_table{
     margin-left: 25px;
     width: 70%;
@@ -50,6 +52,35 @@ table, th, td{
     font-family: "Patua One";
     text-align: center;
 }
+
+.back_button{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    margin: 20px auto 25px;
+    width: 20%;
+    height: 20%;
+    font-size: 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #ff7bbb;
+    font-family: "Lobster";
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+@media (min-width: 769px){
+    .back_button:hover{
+        background-color: #fd3093;
+        transition: background-color 0.2s;
+    }
+}
+
+
+
+
 
 .social_link_text{
     margin-left: 25px;
