@@ -1,5 +1,9 @@
 /*Responsive Stuff Here*/
 
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     box-sizing: border-box;
 }
